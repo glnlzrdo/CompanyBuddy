@@ -1,0 +1,152 @@
+﻿<Page
+    x:Class="CompanyBuddy.Views.MyCalendar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CompanyBuddy.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:telerik="using:Telerik.UI.Xaml.Controls.Input"
+    xmlns:tweaker="using:CompanyBuddy.Helpers"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    x:Name="CalendarView">
+
+    
+    <Page.Resources>
+        <telerik:CalendarCellStyle x:Key="CustomCellStyle">
+            <telerik:CalendarCellStyle.ContentStyle>
+                <Style TargetType="TextBlock">
+                    <Setter Property="Margin" Value="7,0,4,4"/>
+                    <Setter Property="FontSize" Value="18" />
+                    <Setter Property="FontWeight" Value="Bold" />
+                    <Setter Property="Foreground" Value="DarkCyan" />
+                    <Setter Property="TextAlignment" Value="Center" />
+                    <Setter Property="VerticalAlignment" Value="Center" />
+                </Style>
+            </telerik:CalendarCellStyle.ContentStyle>
+            <telerik:CalendarCellStyle.DecorationStyle>
+                <Style TargetType="Border">
+                    <Setter Property="Background" Value="LemonChiffon" />
+                    <Setter Property="BorderBrush" Value="SkyBlue"/>
+                </Style>
+            </telerik:CalendarCellStyle.DecorationStyle>
+        </telerik:CalendarCellStyle>
+        <telerik:CalendarCellStyle x:Key="CurrentDateStyle">
+            <telerik:CalendarCellStyle.ContentStyle>
+                <Style TargetType="TextBlock">
+                    <Setter Property="Margin" Value="7,0,4,4"/>
+                    <Setter Property="FontSize" Value="18" />
+                    
+                    <Setter Property="Foreground" Value="DarkBlue" />
+                    <Setter Property="TextAlignment" Value="Center" />
+                    <Setter Property="VerticalAlignment" Value="Center" />
+                </Style>
+            </telerik:CalendarCellStyle.ContentStyle>
+            <telerik:CalendarCellStyle.DecorationStyle>
+                <Style TargetType="Border">
+                    <Setter Property="Background" Value="LightGreen" />
+                    <Setter Property="BorderBrush" Value="SkyBlue"/>
+                </Style>
+            </telerik:CalendarCellStyle.DecorationStyle>
+        </telerik:CalendarCellStyle>
+        <telerik:CalendarCellStyle x:Key="CustomNormalCellStyle">
+            <telerik:CalendarCellStyle.ContentStyle>
+                <Style TargetType="TextBlock">
+                    <Setter Property="Margin" Value="7,0,4,4"/>
+                    <Setter Property="FontSize" Value="18" />
+                    
+                    <Setter Property="Foreground" Value="CadetBlue" />
+                    <Setter Property="TextAlignment" Value="Center" />
+                    <Setter Property="VerticalAlignment" Value="Center" />
+                </Style>
+            </telerik:CalendarCellStyle.ContentStyle>
+            <telerik:CalendarCellStyle.DecorationStyle>
+                <Style TargetType="Border">
+                    <Setter Property="Background" Value="White" />                    
+                </Style>
+            </telerik:CalendarCellStyle.DecorationStyle>
+        </telerik:CalendarCellStyle>
+        <telerik:CalendarCellStyle x:Key="CustomAnotherCellStyle">
+            <telerik:CalendarCellStyle.ContentStyle>
+                <Style TargetType="TextBlock">
+                    <Setter Property="Margin" Value="7,0,4,4"/>
+                    <Setter Property="FontSize" Value="18" />
+                    
+                    <Setter Property="TextAlignment" Value="Center" />
+                    <Setter Property="VerticalAlignment" Value="Center" />
+                </Style>
+            </telerik:CalendarCellStyle.ContentStyle>
+            <telerik:CalendarCellStyle.DecorationStyle>
+                <Style TargetType="Border">
+                    <Setter Property="Background" Value="LightGray" />                    
+                </Style>
+            </telerik:CalendarCellStyle.DecorationStyle>
+        </telerik:CalendarCellStyle>
+    </Page.Resources>
+    
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="280"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Height="85" Background="Chocolate">
+            <TextBlock Foreground="White" Text="EmployeeBuddy" Margin="0,10,0,0" HorizontalAlignment="Center"
+				VerticalAlignment="Top" FontSize="40" FontWeight="Bold" />
+            <TextBlock Foreground="White" Text="by AppDev Buddy" HorizontalAlignment="Center"
+				VerticalAlignment="Top" FontSize="20" FontWeight="Bold" />
+        </StackPanel>
+
+        <Grid x:Name="ContentPanel" Background="White" Margin="0,0,0,0" Height="Auto" Grid.Row="1">        
+        <StackPanel Grid.Row="1">
+                <telerik:RadCalendar x:Name="CalendarControl" Height="280" RequestedTheme="Light" SelectedCellStyle="{StaticResource CustomCellStyle}"
+                                 HighlightedCellStyle="{StaticResource CurrentDateStyle}" NormalCellStyle="{StaticResource CustomNormalCellStyle}"
+                                 AnotherViewCellStyle="{StaticResource CustomAnotherCellStyle}"
+                                 Tapped="CalendarControl_Tapped" GridLinesBrush="DarkCyan" BorderBrush="CadetBlue">
+                    <telerik:RadCalendar.CellStateSelector>
+                        <tweaker:CustomCellStateSelector/>
+                    </telerik:RadCalendar.CellStateSelector>
+                </telerik:RadCalendar>
+            </StackPanel>
+        </Grid>
+        <Grid x:Name="AttendanceLists" Background="White" Margin="0,0,0,0" Height="Auto" Grid.Row="2">
+
+            <ListView HorizontalAlignment="Center" Background="Transparent" Height="Auto"
+                      BorderThickness="2" MaxHeight="570" x:Name="listBoxobj" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid x:Name="MyHolder" Background="CadetBlue" Margin="2" Width="380" Height="80" >
+                            <Border Margin="5" BorderBrush="White" BorderThickness="1">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition x:Name="MyRadios" Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <TextBlock Margin="5,0,0,0" Grid.Row="0" x:Name="NameTxt" TextWrapping="Wrap" Text="{Binding AttName}" FontSize="24" Foreground="White"/>
+                                    <RadioButton x:Name="PrsntBtn" GroupName="{Binding Id}" HorizontalAlignment="Left"  Content="Present" Grid.Row="1" 
+                                                 Command="{Binding DataContext.PresentCommand, ElementName=CalendarView}" CommandParameter="{Binding GroupName, RelativeSource={RelativeSource Self}}"
+                                                 IsChecked="{Binding IsPresent}" Margin="20,-10,0,0" MinHeight="50" MinWidth="50"/>
+
+                                    <RadioButton x:Name="AbsntBtn" GroupName="{Binding Id}" HorizontalAlignment="Right" Content="Absent" Grid.Row="1" 
+                                                 Command="{Binding DataContext.AbsentCommand, ElementName=CalendarView}" CommandParameter="{Binding GroupName, RelativeSource={RelativeSource Self}}"
+                                                 IsChecked="{Binding IsAbsent}" Margin="0,-10,0,0" />
+                                </Grid>
+                            </Border>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+        </Grid>
+
+    </Grid>
+</Page>

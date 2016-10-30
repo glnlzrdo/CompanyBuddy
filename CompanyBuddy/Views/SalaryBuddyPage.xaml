@@ -1,0 +1,78 @@
+﻿<Page
+    x:Class="CompanyBuddy.SalaryBuddyPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CompanyBuddy"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot" >
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Height="85" Background="Chocolate">
+            <TextBlock Foreground="White" Text="SalaryBuddy" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="40" FontWeight="Bold" />
+            <TextBlock Foreground="White" Text="by AppDev Buddy" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" />
+        </StackPanel>
+
+        <Grid x:Name="ContentPanel" Background="CadetBlue" Margin="0,0,0,0" Height="Auto" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="240" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <StackPanel x:Name="FirstColumn" Grid.Column="0" Height="Auto">
+                <TextBlock HorizontalAlignment="Left" Margin="30,30,0,0" Foreground="White" Text="Rate per Day:" VerticalAlignment="Top" FontSize="18"/>
+                <TextBlock HorizontalAlignment="Left" Margin="30,24,0,0" Foreground="White" Text="Starting Date:" VerticalAlignment="Top" FontSize="18"/>
+                <TextBlock HorizontalAlignment="Left" Margin="30,25,0,0" Foreground="White" Text="Current Date:" VerticalAlignment="Top" FontSize="18"/>
+                <TextBlock HorizontalAlignment="Left" Margin="30,24,0,0" Foreground="White" Text="O.T. Pay:" VerticalAlignment="Top" FontSize="18"/>
+                <TextBlock HorizontalAlignment="Left" Margin="30,24,0,0" Foreground="White" Text="Days Off/Absent:" VerticalAlignment="Top" FontSize="18" Width="135" Grid.Row="1"/>
+                <TextBlock HorizontalAlignment="Left" Margin="30,26,0,0" Foreground="White" Text="Cash Advance:" VerticalAlignment="Top" FontSize="18" Grid.Row="1"/>
+                <TextBlock HorizontalAlignment="Left" Margin="30,26,0,0" Foreground="White" Text="Payables:" VerticalAlignment="Top" FontSize="18" Grid.Row="1"/>
+                <TextBlock HorizontalAlignment="Left" Margin="20,30,0,0" Foreground="White" Text="Total Days:" VerticalAlignment="Top" FontSize="20" Grid.Row="1"/>
+                <TextBlock HorizontalAlignment="Left" Margin="20,20,0,0" Foreground="White" Text="Your Salary is:" VerticalAlignment="Top" FontSize="24" Grid.Row="1"/>
+                
+            </StackPanel>
+
+            <StackPanel x:Name="SecondColumn" Grid.Column="1" Height="Auto">
+                <TextBox x:Name="RateTxt" HorizontalAlignment="Left" Margin="0,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" TextAlignment="Right" FontSize="18" InputScope="Number" IsEnabled="False" Text="$0.00" GotFocus="RateTxt_GotFocus" KeyUp="RateTxt_KeyUp" LostFocus="RateTxt_LostFocus"/>
+                <DatePicker x:Name="StartDate" Foreground="White" IsEnabled="False" Margin="0,-2,0,0" DateChanged="StartDate_DateChanged" HorizontalAlignment="Left" Width="119" VerticalAlignment="Top" />
+                <DatePicker x:Name="CrntDate" Foreground="White" Margin="0,-12,0,0" IsEnabled="False" HorizontalAlignment="Left" Width="119" VerticalAlignment="Top" />
+                <TextBox x:Name="OverTimeTxt" HorizontalAlignment="Left" Margin="0,-3,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" TextAlignment="Right" FontSize="18" InputScope="Number" IsEnabled="False" Text="$0.00" GotFocus="OverTimeTxt_GotFocus" LostFocus="OverTimeTxt_LostFocus" KeyUp="OverTimeTxt_KeyUp"/>
+                <TextBox x:Name="AbsentTxt" HorizontalAlignment="Left" Margin="0,8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" TextAlignment="Right" FontSize="18" InputScope="Number" IsEnabled="False" Text="0" LostFocus="AbsentTxt_LostFocus" KeyUp="AbsentTxt_KeyUp" GotFocus="AbsentTxt_GotFocus" Grid.RowSpan="2"/>
+                <TextBox x:Name="CashAdvTxt" HorizontalAlignment="Left" Margin="0,8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" TextAlignment="Right" FontSize="18" InputScope="Number" IsEnabled="False" GotFocus="CashAdvTxt_GotFocus" LostFocus="CashAdvTxt_LostFocus" Text="$0.00" KeyUp="CashAdvTxt_KeyUp" Grid.Row="1"/>
+                <TextBox x:Name="PayTxt" HorizontalAlignment="Left" Margin="0,8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" TextAlignment="Right" FontSize="18" InputScope="Number" IsEnabled="False" Text="$0.00" GotFocus="PayTxt_GotFocus" KeyUp="PayTxt_KeyUp" LostFocus="PayTxt_LostFocus" Grid.Row="1"/>
+                <TextBlock x:Name="TotalDays" HorizontalAlignment="Left" Margin="0,18,0,0" Foreground="White" Text="0" VerticalAlignment="Top" Width="44" FontSize="24" TextAlignment="Right" />
+                <TextBlock x:Name="MySalary" HorizontalAlignment="Right"  Margin="0,10,20,0" Foreground="White" VerticalAlignment="Top" FontSize="36" TextAlignment="Right" Width="211" Text="$0.00" Loaded="MySalary_Loaded" Grid.Row="1"/>
+                
+
+            </StackPanel>
+
+            <ProgressRing x:Name="SavingProgress" HorizontalAlignment="Left" Margin="20,440,0,0" IsActive="False" Grid.Row="1" VerticalAlignment="Top" Background="{x:Null}" Foreground="White"/>
+
+            <Button x:Name="EditButton" Background="DarkCyan" Foreground="White" Content="Edit" Grid.Column="0" Margin="0,440,20,0" VerticalAlignment="Top" HorizontalAlignment="Right" Click="EditButton_Click" BorderBrush="White"/>
+            <Button x:Name="SaveButton" Background="DarkCyan" Foreground="White" Content="Save" Grid.Column="1" HorizontalAlignment="Left" Margin="20,440,0,0" VerticalAlignment="Top" Click="SaveButton_Click" IsEnabled="False" Grid.Row="1"/>
+
+           
+
+
+
+            <TextBlock HorizontalAlignment="Left" Margin="12,0,0,16" TextWrapping="Wrap" Text="Developed by: Glenn Lizardo" VerticalAlignment="Bottom"  FontSize="18" Foreground="#FFB8F783" FontWeight="Bold" Grid.Row="1"/>
+
+
+
+
+        </Grid>
+    </Grid>
+</Page>

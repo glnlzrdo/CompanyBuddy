@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Files>
+  <file>\CompanyBuddy.exe</file>
+  <file>\Microsoft.Advertising.Mobile.Common.winmd</file>
+  <file>\Microsoft.Advertising.Mobile.Display.winmd</file>
+  <file>\Microsoft.Advertising.Mobile.UI.winmd</file>
+  <file>\Microsoft.Practices.ServiceLocation.dll</file>
+  <file>\Telerik.Core.dll</file>
+  <file>\Telerik.Data.dll</file>
+  <file>\Telerik.UI.Xaml.Chart.dll</file>
+  <file>\Telerik.UI.Xaml.Controls.Data.dll</file>
+  <file>\Telerik.UI.Xaml.Input.dll</file>
+  <file>\Telerik.UI.Xaml.Primitives.dll</file>
+  <file>\Telerik.Storage.Extensions.WindowsPhone.dll</file>
+  <file>\Telerik_Storage.winmd</file>
+</Files>

@@ -1,0 +1,63 @@
+﻿<Page
+    x:Class="CompanyBuddy.Views.EditMyCompany"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CompanyBuddy.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Height="85" Background="Chocolate">
+            <TextBlock Foreground="White" Text="CompanyBuddy" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="40" FontWeight="Bold" />
+            <TextBlock Foreground="White" Text="by AppDev Buddy" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" />
+        </StackPanel>
+
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid x:Name="ContentPanel" Background="White" Margin="0,0,0,0" Height="Auto" Grid.Row="1">
+            <ListView Foreground="DarkCyan" x:Name="MainMenuList" 
+                      IsItemClickEnabled="False"
+                      HorizontalAlignment="Center"
+                      Height="Auto"
+                      Width="360"
+                      VerticalAlignment="Top"
+                      Margin="0,0,0,0">
+                <ListView.Items>
+                    <StackPanel Width="360" Height="480" Grid.Row="1" Margin="0,20,0,20" >
+                        <TextBlock Foreground="DarkCyan" Margin="10,10,0,0" FontSize="18" Text="Name"/>
+                        <TextBox Name="NametxtBx" Margin="10,0,10,0" Background="White" Height="60" TextWrapping="Wrap" BorderBrush="LightGray"/>                        
+                        <TextBlock Foreground="DarkCyan" Margin="10,10,0,0" FontSize="18" Text="Address"/>
+                        <TextBox Name="AddresstxtBx" Margin="10,0,10,0" Background="White" Height="60" TextWrapping="Wrap" BorderBrush="LightGray"/>                        
+                        <TextBlock Foreground="DarkCyan" FontSize="18" Text="Phone Number" Margin="10,10,0,0"/>
+                        <TextBox InputScope="TelephoneNumber" Name="PhonetxtBx" Margin="10,0,10,0" Background="White" BorderBrush="LightGray"/>
+                        <TextBlock Foreground="DarkCyan" Margin="10,10,0,0" FontSize="18" Text="Payroll Cut-Off"/>
+                        <ComboBox x:Name="CutOffComboBx" Width="340" Margin="10,0,10,0" HorizontalAlignment="Left" Background="White" Foreground="Black" BorderBrush="LightGray">
+                            <ComboBoxItem Content="15th &amp; End of the Month" IsSelected="True"/>
+                            <ComboBoxItem Content="10th &amp; 20th of the Month"/>
+                        </ComboBox>
+                        
+                    </StackPanel>
+                </ListView.Items>
+            </ListView>
+        </Grid>
+
+        <StackPanel Background="White" VerticalAlignment="Top" Margin="0,0,0,0" Orientation="Horizontal" Grid.Row="2">
+            <Button x:Name="SaveBtn" Background="DarkCyan" Foreground="White" Margin="20,0,0,0" Content="Save" Click="SaveBtn_Click" />
+            <ProgressRing x:Name="Saving" IsActive="False" Background="White" Foreground="DarkCyan" Margin="20,-15,0,0"/>
+        </StackPanel>
+    </Grid>
+</Page>

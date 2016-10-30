@@ -1,0 +1,17 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\warlock\documents\visual studio 2013\projects\companybuddy\companybuddy\obj\arm\release\intermediatexaml\companybuddy.exe" HashGuid="1857f513-3133-113a-bee0-2f2e5dd8b278" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.advertising.mobile.display\8.1\references\commonconfiguration\neutral\microsoft.advertising.mobile.common.winmd" HashGuid="67667542-2ed0-db4a-d191-3e7623df243e" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.advertising.mobile.display\8.1\references\commonconfiguration\neutral\microsoft.advertising.mobile.display.winmd" HashGuid="cc0fb2e7-7a64-f70e-2997-2ad4fbf1cad0" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.advertising.mobile.display\8.1\references\commonconfiguration\neutral\microsoft.advertising.mobile.ui.winmd" HashGuid="b3d8dc37-2e80-b28f-127b-3083e011fcaf" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="c:\program files (x86)\telerik\ui for windows universal r3 2016\sdks\windows phone 8.1\telerik ui for windows universal\references\commonconfiguration\neutral\telerik.core.dll" HashGuid="d1e20c10-2263-1783-b6eb-280b22fdae92" />
+    <ReferenceAssembly PathName="c:\program files (x86)\telerik\ui for windows universal r3 2016\sdks\windows phone 8.1\telerik ui for windows universal\references\commonconfiguration\neutral\telerik.data.dll" HashGuid="852e985f-e149-77a1-0ed3-1003adb2357a" />
+    <ReferenceAssembly PathName="c:\program files (x86)\telerik\ui for windows universal r3 2016\sdks\windows phone 8.1\telerik data storage for windows universal\references\commonconfiguration\arm\telerik.storage.extensions.windowsphone.dll" HashGuid="3ea04bbb-acda-9bc7-5d96-f16ee05dd8ef" />
+    <ReferenceAssembly PathName="c:\program files (x86)\telerik\ui for windows universal r3 2016\sdks\windows phone 8.1\telerik ui for windows universal\references\commonconfiguration\neutral\telerik.ui.xaml.chart.dll" HashGuid="164b0822-e6ac-ed04-0c23-e81059c26d2b" />
+    <ReferenceAssembly PathName="c:\program files (x86)\telerik\ui for windows universal r3 2016\sdks\windows phone 8.1\telerik ui for windows universal\references\commonconfiguration\neutral\telerik.ui.xaml.controls.data.dll" HashGuid="e1f966fb-de20-d8a6-ca0a-37a0c5ddd4cc" />
+    <ReferenceAssembly PathName="c:\program files (x86)\telerik\ui for windows universal r3 2016\sdks\windows phone 8.1\telerik ui for windows universal\references\commonconfiguration\neutral\telerik.ui.xaml.input.dll" HashGuid="5100ddad-7f56-6110-81f7-617cb29624fd" />
+    <ReferenceAssembly PathName="c:\program files (x86)\telerik\ui for windows universal r3 2016\sdks\windows phone 8.1\telerik ui for windows universal\references\commonconfiguration\neutral\telerik.ui.xaml.primitives.dll" HashGuid="2b9ced9e-a576-0d41-4571-5e6f393f2362" />
+    <ReferenceAssembly PathName="c:\users\warlock\documents\visual studio 2013\projects\companybuddy\packages\commonservicelocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\microsoft.practices.servicelocation.dll" HashGuid="89de7f80-26d8-a17c-5ad9-b855f81ea5b2" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

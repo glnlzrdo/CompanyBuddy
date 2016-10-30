@@ -1,0 +1,358 @@
+Compile filter specified.  Only the following files will be processed:
+c:\users\warlock\documents\visual studio 2013\projects\companybuddy\companybuddy\obj\arm\release\msil\companybuddy.exe
+Processing file: C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\AppxManifest.xml
+File C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\AppxManifest.xml is not in the compile filter. Skipping.
+Processing file: C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\CompanyBuddy.exe
+Calling CrossGen with arguments:
+/nologo /mdil /MissingDependenciesOK /fulltrust  /app_paths "C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL;"  /trusted_platform_assemblies "C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\Internal.Numerics.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\Microsoft.CSharp.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\Microsoft.VisualBasic.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\mscorlib.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\mscorlib.extensions.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Collections.Concurrent.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Collections.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.ComponentModel.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.ComponentModel.EventBasedAsync.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Core.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Diagnostics.Contracts.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Diagnostics.Debug.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Diagnostics.Tools.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Diagnostics.Tracing.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Dynamic.Runtime.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Globalization.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.IO.Compression.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.IO.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Linq.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Linq.Expressions.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Linq.Parallel.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Linq.Queryable.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Net.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Net.Http.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Net.Http.Phone.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Net.Http.Primitives.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Net.NetworkInformation.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Net.Primitives.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Net.Requests.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.ObjectModel.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Reflection.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Reflection.Extensions.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Reflection.Primitives.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Resources.ResourceManager.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Runtime.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Runtime.Extensions.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Runtime.InteropServices.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Runtime.InteropServices.WindowsRuntime.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Runtime.Numerics.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Runtime.Serialization.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Runtime.Serialization.Json.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Runtime.Serialization.Primitives.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Runtime.Serialization.Xml.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Runtime.WindowsRuntime.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Runtime.WindowsRuntime.UI.Xaml.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Security.Principal.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.ServiceModel.Web.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Text.Encoding.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Text.Encoding.Extensions.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Text.RegularExpressions.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Threading.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Threading.Tasks.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Threading.Tasks.Parallel.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Threading.Timer.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Xml.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Xml.Linq.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Xml.ReaderWriter.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Xml.Serialization.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Xml.XDocument.dll;C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\Framework\System.Xml.XmlSerializer.dll;"  /platform_winmd_paths "C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\Tools\MDILXAPCompile\WinMDs;"  /out "C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MDIL\CompanyBuddy.exe" "C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\CompanyBuddy.exe"
+Output:
+Warning: Strong name validation failed. (Exception from HRESULT: 0x8013141A).
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method token 0x6000080
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method token 0x6000081
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method MainPage..ctor
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method MainPage.MainMenuList_ItemTap
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method MainPage.InitializeComponent
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method MainPage.Connect
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method MyCalendar.CalendarControl_Tapped
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method MyCalendar.InitializeComponent
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.InitTypeTables
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_0_RadDataBoundListBox
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_1_RadVirtualizingDataControl
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_33_RadFadeAnimation
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_49_CalendarCellStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_50_RadCalendar
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_52_CalendarCellStateSelector
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_60_ObservableCollection
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_61_Collection
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_68_CalendarCellStyleSelector
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_69_CalendarDayNameCellStyleSelector
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_70_CalendarWeekNumberCellStyleSelector
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_76_CustomCellStateSelector
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_86_ChartAnnotationLabelDefinition
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_90_ChartPalette
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_91_PaletteEntryCollection
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_93_AngledHexLayoutDefinition
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_96_FlatLooseHexLayoutDefinition
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_97_FlatTightHexLayoutDefinition
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_98_HighlightStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_102_ImageEditorToolFactory
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_103_ImageEditorToolGroup
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_105_ObservableCollection
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_106_Collection
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.Activate_108_BusyIndicatorAnimationAdapter
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.VectorAdd_58_CommandCollection
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.VectorAdd_59_AttachableObjectCollection
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.VectorAdd_60_ObservableCollection
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.VectorAdd_61_Collection
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.VectorAdd_105_ObservableCollection
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.VectorAdd_106_Collection
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.CreateXamlType
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_OtherProviders
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_0_DataControlBase_ItemsSource
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_0_DataControlBase_ItemsSource
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_1_TemplateProviderControl_ItemTemplate
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_1_TemplateProviderControl_ItemTemplate
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_2_RadVirtualizingDataControl_ItemAddedAnimation
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_2_RadVirtualizingDataControl_ItemAddedAnimation
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_3_RadDataBoundListBox_CheckBoxesIndicatorStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_3_RadDataBoundListBox_CheckBoxesIndicatorStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_4_RadDataBoundListBox_CheckedItems
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_5_RadDataBoundListBox_IsCheckModeEnabled
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_5_RadDataBoundListBox_IsCheckModeEnabled
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_6_RadDataBoundListBox_CheckModeDeactivatedOnBackButton
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_6_RadDataBoundListBox_CheckModeDeactivatedOnBackButton
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_7_RadDataBoundListBox_IsCheckModeActive
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_7_RadDataBoundListBox_IsCheckModeActive
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_8_RadDataBoundListBox_ItemCheckedPath
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_8_RadDataBoundListBox_ItemCheckedPath
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_9_RadDataBoundListBox_ItemReorderControlStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_9_RadDataBoundListBox_ItemReorderControlStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_10_RadDataBoundListBox_IsItemReorderEnabled
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_10_RadDataBoundListBox_IsItemReorderEnabled
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_11_RadDataBoundListBox_PullToRefreshIndicatorStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_11_RadDataBoundListBox_PullToRefreshIndicatorStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_12_RadDataBoundListBox_ListFooterDisplayMode
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_12_RadDataBoundListBox_ListFooterDisplayMode
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_13_RadDataBoundListBox_ListHeaderDisplayMode
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_13_RadDataBoundListBox_ListHeaderDisplayMode
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_14_RadDataBoundListBox_IsPullToRefreshEnabled
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_14_RadDataBoundListBox_IsPullToRefreshEnabled
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_15_RadDataBoundListBox_CheckBoxStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_15_RadDataBoundListBox_CheckBoxStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_16_RadDataBoundListBox_EmptyContentDisplayMode
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_16_RadDataBoundListBox_EmptyContentDisplayMode
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_17_RadDataBoundListBox_ListHeaderTemplate
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_17_RadDataBoundListBox_ListHeaderTemplate
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_18_RadDataBoundListBox_ListHeaderContent
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_18_RadDataBoundListBox_ListHeaderContent
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_19_RadDataBoundListBox_ListFooterTemplate
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_19_RadDataBoundListBox_ListFooterTemplate
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_20_RadDataBoundListBox_ListFooterContent
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_20_RadDataBoundListBox_ListFooterContent
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_21_RadDataBoundListBox_IncrementalLoadingItemTemplate
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_21_RadDataBoundListBox_IncrementalLoadingItemTemplate
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_22_RadDataBoundListBox_IncrementalLoadingItemContent
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_22_RadDataBoundListBox_IncrementalLoadingItemContent
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_23_RadDataBoundListBox_ItemLoadingContent
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_23_RadDataBoundListBox_ItemLoadingContent
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_24_RadDataBoundListBox_ItemLoadingTemplate
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_24_RadDataBoundListBox_ItemLoadingTemplate
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_25_RadDataBoundListBox_EmptyContent
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_25_RadDataBoundListBox_EmptyContent
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_26_RadDataBoundListBox_EmptyContentTemplate
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_26_RadDataBoundListBox_EmptyContentTemplate
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_27_RadDataBoundListBox_IsSynchronizedWithCurrentItem
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_27_RadDataBoundListBox_IsSynchronizedWithCurrentItem
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_28_RadDataBoundListBox_SelectedItem
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_28_RadDataBoundListBox_SelectedItem
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_29_RadDataBoundListBox_SelectedValue
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_30_RadDataBoundListBox_SelectedValuePath
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_30_RadDataBoundListBox_SelectedValuePath
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_31_RadDataBoundListBox_IncrementalLoadingMode
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_31_RadDataBoundListBox_IncrementalLoadingMode
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_32_RadDataBoundListBox_PullToRefreshScrollOffsetThreshold
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_32_RadDataBoundListBox_PullToRefreshScrollOffsetThreshold
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_33_RadDataBoundListBox_ShowPullToRefreshWhenNoData
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_33_RadDataBoundListBox_ShowPullToRefreshWhenNoData
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_34_RadVirtualizingDataControl_VirtualizationStrategyDefinition
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_34_RadVirtualizingDataControl_VirtualizationStrategyDefinition
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_35_RadVirtualizingDataControl_IsAsyncBalanceEnabled
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_35_RadVirtualizingDataControl_IsAsyncBalanceEnabled
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_36_RadVirtualizingDataControl_RecycledItemsCount
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_37_RadVirtualizingDataControl_RealizedItemsCount
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_38_RadVirtualizingDataControl_RealizedItems
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_39_RadVirtualizingDataControl_TopVisibleItem
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_40_RadVirtualizingDataControl_DisplayMemberPath
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_40_RadVirtualizingDataControl_DisplayMemberPath
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_41_RadVirtualizingDataControl_ViewportItems
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_42_RadVirtualizingDataControl_TopVisibleListSourceItem
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_43_RadVirtualizingDataControl_ItemAnimationMode
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_43_RadVirtualizingDataControl_ItemAnimationMode
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_44_RadVirtualizingDataControl_ItemRemovedAnimation
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_44_RadVirtualizingDataControl_ItemRemovedAnimation
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_45_RadVirtualizingDataControl_ItemAddedAnimationInterval
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_45_RadVirtualizingDataControl_ItemAddedAnimationInterval
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_46_RadVirtualizingDataControl_ItemRemovedAnimationInterval
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_46_RadVirtualizingDataControl_ItemRemovedAnimationInterval
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_47_RadVirtualizingDataControl_HorizontalScrollBarVisibility
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_47_RadVirtualizingDataControl_HorizontalScrollBarVisibility
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_48_RadVirtualizingDataControl_VerticalScrollBarVisibility
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_48_RadVirtualizingDataControl_VerticalScrollBarVisibility
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_49_RadVirtualizingDataControl_RealizedItemsBufferScale
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_49_RadVirtualizingDataControl_RealizedItemsBufferScale
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_50_RadVirtualizingDataControl_AsyncBalanceMode
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_50_RadVirtualizingDataControl_AsyncBalanceMode
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_51_RadVirtualizingDataControl_ItemCount
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_52_TemplateProviderControl_ItemTemplateSelector
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_52_TemplateProviderControl_ItemTemplateSelector
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_53_TemplateProviderControl_ItemContainerStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_53_TemplateProviderControl_ItemContainerStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_54_TemplateProviderControl_ItemContainerStyleSelector
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_54_TemplateProviderControl_ItemContainerStyleSelector
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_55_RadControl_CurrentVisualState
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_56_RadFadeAnimation_EndOpacity
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_56_RadFadeAnimation_EndOpacity
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_57_RadAnimation_Duration
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_57_RadAnimation_Duration
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_58_RadAnimation_Easing
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_58_RadAnimation_Easing
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_59_RadFadeAnimation_StartOpacity
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_59_RadFadeAnimation_StartOpacity
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_60_RadAnimation_InitialDelay
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_60_RadAnimation_InitialDelay
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_61_RadAnimation_AnimationName
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_61_RadAnimation_AnimationName
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_62_RadAnimation_FillBehavior
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_62_RadAnimation_FillBehavior
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_63_RadAnimation_SpeedRatio
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_63_RadAnimation_SpeedRatio
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_64_RadAnimation_AutoReverse
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_64_RadAnimation_AutoReverse
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_65_RadAnimation_RepeatBehavior
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_65_RadAnimation_RepeatBehavior
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_66_RadAnimation_AnimationOrigin
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_66_RadAnimation_AnimationOrigin
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_74_CalendarCellStyle_ContentStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_74_CalendarCellStyle_ContentStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_75_CalendarCellStyle_DecorationStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_75_CalendarCellStyle_DecorationStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_76_RadCalendar_SelectedCellStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_76_RadCalendar_SelectedCellStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_77_RadCalendar_HighlightedCellStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_77_RadCalendar_HighlightedCellStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_78_RadCalendar_NormalCellStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_78_RadCalendar_NormalCellStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_79_RadCalendar_AnotherViewCellStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_79_RadCalendar_AnotherViewCellStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_80_RadCalendar_GridLinesBrush
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_80_RadCalendar_GridLinesBrush
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_81_RadCalendar_CellStateSelector
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_81_RadCalendar_CellStateSelector
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_82_RadCalendar_CommandService
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_83_RadCalendar_Commands
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_84_AttachableObject_Owner
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_85_RadCalendar_DisplayDateStart
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_85_RadCalendar_DisplayDateStart
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_86_RadCalendar_AppointmentSource
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_86_RadCalendar_AppointmentSource
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_87_RadCalendar_AppointmentTemplateSelector
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_87_RadCalendar_AppointmentTemplateSelector
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_88_RadCalendar_DisplayDateEnd
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_88_RadCalendar_DisplayDateEnd
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_89_RadCalendar_DisplayDate
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_89_RadCalendar_DisplayDate
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_90_RadCalendar_DisplayMode
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_90_RadCalendar_DisplayMode
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_91_RadCalendar_GridLinesThickness
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_91_RadCalendar_GridLinesThickness
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_92_RadCalendar_GridLinesVisibility
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_92_RadCalendar_GridLinesVisibility
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_93_RadCalendar_PointerOverCellStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_93_RadCalendar_PointerOverCellStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_94_RadCalendar_BlackoutCellStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_94_RadCalendar_BlackoutCellStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_95_RadCalendar_CurrentCellStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_95_RadCalendar_CurrentCellStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_96_RadCalendar_DayNameCellStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_96_RadCalendar_DayNameCellStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_97_RadCalendar_WeekNumberCellStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_97_RadCalendar_WeekNumberCellStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_98_RadCalendar_CellStyleSelector
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_98_RadCalendar_CellStyleSelector
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_99_RadCalendar_DayNameCellStyleSelector
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_99_RadCalendar_DayNameCellStyleSelector
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_100_RadCalendar_WeekNumberCellStyleSelector
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_100_RadCalendar_WeekNumberCellStyleSelector
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_101_RadCalendar_IsTodayHighlighted
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_101_RadCalendar_IsTodayHighlighted
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_102_RadCalendar_SelectionMode
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_102_RadCalendar_SelectionMode
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_103_RadCalendar_MonthViewHeaderFormat
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_103_RadCalendar_MonthViewHeaderFormat
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_104_RadCalendar_YearViewHeaderFormat
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_104_RadCalendar_YearViewHeaderFormat
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_105_RadCalendar_DecadeViewHeaderFormat
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_105_RadCalendar_DecadeViewHeaderFormat
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_106_RadCalendar_CenturyViewHeaderFormat
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_106_RadCalendar_CenturyViewHeaderFormat
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_107_RadCalendar_MonthViewCellFormat
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_107_RadCalendar_MonthViewCellFormat
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_108_RadCalendar_YearViewCellFormat
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_108_RadCalendar_YearViewCellFormat
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_109_RadCalendar_DecadeViewCellFormat
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_109_RadCalendar_DecadeViewCellFormat
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_110_RadCalendar_CenturyViewCellFormat
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_110_RadCalendar_CenturyViewCellFormat
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_111_RadCalendar_DayNamesVisibility
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_111_RadCalendar_DayNamesVisibility
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_112_RadCalendar_NavigationArrowsVisibility
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_112_RadCalendar_NavigationArrowsVisibility
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_113_RadCalendar_WeekNumbersVisibility
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_113_RadCalendar_WeekNumbersVisibility
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_114_RadCalendar_DayNameFormat
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_114_RadCalendar_DayNameFormat
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_115_RadCalendar_WeekNumberFormat
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_115_RadCalendar_WeekNumberFormat
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_116_RadCalendar_SelectedDateRange
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_116_RadCalendar_SelectedDateRange
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_117_RadCalendar_SelectedDateRanges
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_118_RadCalendar_CurrentDate
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_137_ChartAnnotationLabelDefinition_Format
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_137_ChartAnnotationLabelDefinition_Format
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_138_ChartAnnotationLabelDefinition_Template
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_138_ChartAnnotationLabelDefinition_Template
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_139_ChartAnnotationLabelDefinition_DefaultVisualStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_139_ChartAnnotationLabelDefinition_DefaultVisualStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_140_ChartAnnotationLabelDefinition_Location
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_140_ChartAnnotationLabelDefinition_Location
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_141_ChartAnnotationLabelDefinition_HorizontalAlignment
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_141_ChartAnnotationLabelDefinition_HorizontalAlignment
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_142_ChartAnnotationLabelDefinition_VerticalAlignment
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_142_ChartAnnotationLabelDefinition_VerticalAlignment
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_143_ChartAnnotationLabelDefinition_HorizontalOffset
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_143_ChartAnnotationLabelDefinition_HorizontalOffset
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_144_ChartAnnotationLabelDefinition_VerticalOffset
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_144_ChartAnnotationLabelDefinition_VerticalOffset
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_145_ChartPalette_Name
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_145_ChartPalette_Name
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_146_ChartPalette_FillEntries
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_146_ChartPalette_FillEntries
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_147_PaletteEntryCollection_Brushes
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_148_ChartPalette_SpecialFillEntries
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_148_ChartPalette_SpecialFillEntries
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_149_ChartPalette_StrokeEntries
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_149_ChartPalette_StrokeEntries
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_150_ChartPalette_SpecialStrokeEntries
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_150_ChartPalette_SpecialStrokeEntries
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_151_HexLayoutDefinitionBase_Orientation
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_151_HexLayoutDefinitionBase_Orientation
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_152_HexLayoutDefinitionBase_ItemLength
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_152_HexLayoutDefinitionBase_ItemLength
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_153_HexLayoutDefinitionBase_ItemsSpacing
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_153_HexLayoutDefinitionBase_ItemsSpacing
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_154_HexLayoutDefinitionBase_ViewPortExtension
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_154_HexLayoutDefinitionBase_ViewPortExtension
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_155_HighlightStyle_FontFamily
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_155_HighlightStyle_FontFamily
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_156_HighlightStyle_FontWeight
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_156_HighlightStyle_FontWeight
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_157_HighlightStyle_FontStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_157_HighlightStyle_FontStyle
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_158_HighlightStyle_Foreground
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_158_HighlightStyle_Foreground
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_159_HighlightStyle_FontSize
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_159_HighlightStyle_FontSize
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_160_ImageEditorToolFactory_RangeToolDefaultTemplate
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_160_ImageEditorToolFactory_RangeToolDefaultTemplate
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_161_ImageEditorToolFactory_TextToolDefaultTemplate
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_161_ImageEditorToolFactory_TextToolDefaultTemplate
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_162_ImageEditorToolGroup_Tools
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_163_ImageEditorTool_Name
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_164_ImageEditorTool_CollectionIndex
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_165_ImageEditorTool_Icon
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_166_ImageEditorTool_IsWorking
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_167_ImageEditorTool_SupportsComparison
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_168_ImageEditorTool_IsSelected
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_168_ImageEditorTool_IsSelected
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_169_ImageEditorTool_Visibility
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_170_ImageEditorToolGroup_Icon
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_170_ImageEditorToolGroup_Icon
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_171_ImageEditorToolGroup_Name
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_171_ImageEditorToolGroup_Name
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_172_ImageEditorToolGroup_IsSelected
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_172_ImageEditorToolGroup_IsSelected
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.get_173_BusyIndicatorAnimationAdapter_Animation
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method XamlTypeInfoProvider.set_173_BusyIndicatorAnimationAdapter_Animation
+Strong name validation failed. (Exception from HRESULT: 0x8013141A) while compiling method <MainMenuList_ItemTap>d__0.MoveNext
+MDIL image C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MDIL\CompanyBuddy.exe generated successfully.
+
+
+File C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\CompanyBuddy.exe output C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MDIL\CompanyBuddy.exe
+Processing file: C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Microsoft.Advertising.Mobile.Common.winmd
+File C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Microsoft.Advertising.Mobile.Common.winmd is not in the compile filter. Skipping.
+Processing file: C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Microsoft.Advertising.Mobile.Display.winmd
+File C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Microsoft.Advertising.Mobile.Display.winmd is not in the compile filter. Skipping.
+Processing file: C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Microsoft.Advertising.Mobile.UI.winmd
+File C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Microsoft.Advertising.Mobile.UI.winmd is not in the compile filter. Skipping.
+Processing file: C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Microsoft.Practices.ServiceLocation.dll
+File C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Microsoft.Practices.ServiceLocation.dll is not in the compile filter. Skipping.
+Processing file: C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\sqlite3.dll
+File C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\sqlite3.dll is not in the compile filter. Skipping.
+Processing file: C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Telerik.Core.dll
+File C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Telerik.Core.dll is not in the compile filter. Skipping.
+Processing file: C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Telerik.Data.dll
+File C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Telerik.Data.dll is not in the compile filter. Skipping.
+Processing file: C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Telerik.Storage.Extensions.WindowsPhone.dll
+File C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Telerik.Storage.Extensions.WindowsPhone.dll is not in the compile filter. Skipping.
+Processing file: C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Telerik.Storage.WindowsPhone.dll
+File C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Telerik.Storage.WindowsPhone.dll is not in the compile filter. Skipping.
+Processing file: C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Telerik.UI.Xaml.Chart.dll
+File C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Telerik.UI.Xaml.Chart.dll is not in the compile filter. Skipping.
+Processing file: C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Telerik.UI.Xaml.Controls.Data.dll
+File C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Telerik.UI.Xaml.Controls.Data.dll is not in the compile filter. Skipping.
+Processing file: C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Telerik.UI.Xaml.Input.dll
+File C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Telerik.UI.Xaml.Input.dll is not in the compile filter. Skipping.
+Processing file: C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Telerik.UI.Xaml.Primitives.dll
+File C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Telerik.UI.Xaml.Primitives.dll is not in the compile filter. Skipping.
+Processing file: C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Telerik_Storage.winmd
+File C:\Users\Warlock\Documents\Visual Studio 2013\Projects\CompanyBuddy\CompanyBuddy\obj\ARM\Release\MSIL\Telerik_Storage.winmd is not in the compile filter. Skipping.

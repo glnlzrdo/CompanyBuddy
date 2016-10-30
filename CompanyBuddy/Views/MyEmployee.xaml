@@ -1,0 +1,147 @@
+﻿<Page
+    x:Class="CompanyBuddy.Views.MyEmployee"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CompanyBuddy.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    x:Name="EmployeeView"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <SolidColorBrush x:Key="PivotBackground" Color="Chocolate"/>
+
+        <Style x:Key="PivotStyle" TargetType="Pivot">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Pivot">
+                        <Grid x:Name="RootElement" HorizontalAlignment="{TemplateBinding HorizontalAlignment}" VerticalAlignment="{TemplateBinding VerticalAlignment}">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <!--Notice that ContentControl is wrapped in a Grid and Background set to resource furtehr up-->
+                            <Grid VerticalAlignment="Center" >
+                                <ContentControl x:Name="TitleContentControl" ContentTemplate="{TemplateBinding TitleTemplate}" Content="{TemplateBinding Title}" Style="{StaticResource PivotTitleContentControlStyle}"/>
+                            </Grid>
+                            <ScrollViewer x:Name="ScrollViewer" HorizontalSnapPointsAlignment="Center" HorizontalSnapPointsType="MandatorySingle" HorizontalScrollBarVisibility="Hidden" Margin="{TemplateBinding Padding}" Grid.Row="1" Template="{StaticResource ScrollViewerScrollBarlessTemplate}" VerticalSnapPointsType="None" VerticalScrollBarVisibility="Disabled" VerticalScrollMode="Disabled" VerticalContentAlignment="Stretch" ZoomMode="Disabled">
+                                <PivotPanel x:Name="Panel" VerticalAlignment="Stretch">
+                                    <!--Background set to resource further up-->
+                                    <PivotHeaderPanel Background="{StaticResource PivotBackground}" x:Name="Header" >
+                                        <PivotHeaderPanel.RenderTransform>
+                                            <CompositeTransform x:Name="HeaderTranslateTransform" TranslateX="0"/>
+                                        </PivotHeaderPanel.RenderTransform>
+                                    </PivotHeaderPanel>
+                                    <ItemsPresenter x:Name="PivotItemPresenter">
+                                        <ItemsPresenter.RenderTransform>
+                                            <TranslateTransform x:Name="ItemsPresenterTranslateTransform" X="0"/>
+                                        </ItemsPresenter.RenderTransform>
+                                    </ItemsPresenter>
+                                </PivotPanel>
+                            </ScrollViewer>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        
+        <Pivot x:Name="EmployeePivot" Style="{StaticResource PivotStyle}">           
+            
+            <PivotItem x:Name="EmpDetailSection" Header="Details" VerticalAlignment="Stretch">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <ListView Foreground="DarkCyan" x:Name="ListEmpDetails" 
+                      IsItemClickEnabled="False"
+                      HorizontalAlignment="Center"                      
+                      Width="360"
+                      Grid.Row="0"
+                      VerticalAlignment="Top"
+                      Margin="0,0,0,0">
+                        <ListView.Items>
+                            <StackPanel Background="CadetBlue" Width="350" Height="480" Grid.Row="0">
+                                <TextBlock Foreground="White" Margin="10,10,0,0" FontSize="18" Text="Name"/>
+                                <TextBox Name="NametxtBx" Margin="10,0,10,0" Background="White"/>
+                                <TextBlock Foreground="White" Margin="10,10,0,0" FontSize="18" Text="Position"/>
+                                <TextBox Name="PositiontxtBx" Margin="10,0,10,0" Background="White"/>
+                                <TextBlock Foreground="White" Margin="10,10,0,0" FontSize="18" Text="Address"/>
+                                <TextBox Name="AddresstxtBx" Margin="10,0,10,0" Background="White" Height="60"/>
+                                <TextBlock Foreground="White" Margin="10,10,0,0" FontSize="18" Text="Age"/>
+                                <TextBox InputScope="Number" Name="AgetxtBx" Margin="10,0,10,0" Background="White"/>
+
+                                <TextBlock Foreground="White" FontSize="18" Text="PhoneNumber" Margin="10,10,0,0"/>
+                                <TextBox InputScope="TelephoneNumber" Name="PhonetxtBx" Margin="10,0,10,0" Background="White"/>
+                                <TextBlock Foreground="White" Margin="10,10,0,0" FontSize="18" Text="Rate per day"/>
+                                <TextBox InputScope="Number" Name="RatetxtBx" Margin="10,0,10,0" Background="White"/>
+                            </StackPanel>
+                        </ListView.Items>
+                    </ListView>
+
+                    <StackPanel Background="White" VerticalAlignment="Bottom" Margin="0,0,0,0" Orientation="Horizontal" Grid.Row="1">
+                        <Button Background="DarkCyan" Foreground="White" Margin="20,0,0,0" Content="Update" Click="Update_Click"/>
+                        <Button Background="DarkCyan" Foreground="White" Name="Btn_Delete" Margin="20,0,0,0" Content="Delete" Click="Delete_Click" />
+                        <ProgressRing x:Name="Saving" IsActive="False" Background="White" Foreground="DarkCyan" Margin="20,-15,0,0"/>
+                    </StackPanel>
+                </Grid>
+            </PivotItem>
+
+            <PivotItem x:Name="EmpAttendance" Header="Attendance">
+                    <ListView HorizontalAlignment="Center" Background="Transparent" Height="Auto"
+                      BorderThickness="2" MaxHeight="570" x:Name="ListAttendance">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid x:Name="MyHolder" Background="CadetBlue" Margin="2" Width="330" Height="80" >
+                            <Border Margin="5" BorderBrush="White" BorderThickness="1">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition x:Name="MyRadios" Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <TextBlock Margin="5,0,0,0" Grid.Row="0" x:Name="NameTxt" TextWrapping="Wrap" Text="{Binding AttDate}" FontSize="24" Foreground="White"/>
+                                    <RadioButton x:Name="PrsntBtn" GroupName="{Binding Id}" HorizontalAlignment="Left"  Content="Present" Grid.Row="1" 
+                                                 Command="{Binding DataContext.PresentCommand, ElementName=EmployeeView}" CommandParameter="{Binding GroupName, RelativeSource={RelativeSource Self}}"
+                                                 IsChecked="{Binding IsPresent}" Margin="20,-10,0,0" />
+                                        
+                                    <RadioButton x:Name="AbsntBtn" GroupName="{Binding Id}" HorizontalAlignment="Right" Content="Absent" Grid.Row="1" 
+                                                 Command="{Binding DataContext.AbsentCommand, ElementName=EmployeeView}" CommandParameter="{Binding GroupName, RelativeSource={RelativeSource Self}}"
+                                                 IsChecked="{Binding IsAbsent}" Margin="0,-10,0,0" />
+                                </Grid>
+                            </Border>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            </PivotItem>
+            <PivotItem x:Name="EmpSalary"  Header="Payroll">
+                <ListView HorizontalAlignment="Center" Background="Transparent" Height="auto" BorderThickness="2" MaxHeight="570" x:Name="ListPayroll">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Background="CadetBlue" Margin="2" Width="330" Height="80" >
+                                <Border Margin="5" BorderBrush="White" BorderThickness="1">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+                                        <TextBlock Margin="5,0,0,0" Grid.Row="0" x:Name="NameTxt" TextWrapping="Wrap" Text="{Binding Name}" FontSize="24" Foreground="White"/>
+                                        <TextBlock Margin="5,0,0,0" Grid.Row="1" x:Name="AmountTxt" TextWrapping="Wrap" Text="{Binding Salary}" FontSize="24" Foreground="White"/>
+                                    </Grid>
+                                </Border>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </PivotItem>
+        </Pivot>        
+    </Grid>
+</Page>
