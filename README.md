@@ -1,4 +1,11 @@
 # CompanyBuddy
-A Windows Phone 8.1 App
+A Windows Mobile App
 
-This application helps the company manage employees in a mobile way.
+This application helps small companies to manage employees.
+
+Included in the apps:
+* Daily Time-in / Time-out
+* Daily Time Record Reporting
+* Payroll system
+* Employee Profile
+* Employee Position Management
